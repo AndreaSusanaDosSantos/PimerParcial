@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PrimerParcial</string>
+    <string name="imageViewItes" translatable="false">TODO</string>
+    <string name="Bienvenido">Bienvenido de nuevo</string>
+    <string name="editTextNombre">INGRESE SU NOMBRE</string>
+    <string name="editTextClave">INGRESE SU CONTRASEÑA</string>
+    <string name="switchRecordar" translatable="false">Switch</string>
+    <string name="textViewRecordarUser">Recordar Usuario</string>
+    <string name="buttonIngresar">INGRESAR</string>
+    <string name="textViewRegistro">Sin registrar? Crear Usuario</string>
+    <string name="android" translatable="false">Android</string>
+    <string name="textViewConversor">Conversor de Monedas</string>
+    <string name="editTextIngreseMonto">Ingrese Monto en Pesos</string>
+    <string name="textViewSeleccioneMoneda">Seleccione Moneda</string>
+    <string name="radioButtonDolar">DOLAR (USA)</string>
+    <string name="radioButtonEuro">EURO</string>
+    <string name="radioButtonReal">REAL (BRASIL)</string>
+    <string name="editTextResultado">Resultado</string>
+    <string name="buttonConvertir">CONVERTIR</string>
+    <string name="buttonReiniciar">REINICIAR</string>
+    <string name="imageViewAndroid" translatable="false">TODO</string>
+    <string name="buttonSumar">SUMAR</string>
+    <string name="buttonRestar">RESTAR</string>
+    <string name="buttonAumenta" translatable="false">ZOOM +</string>
+    <string name="buttonBajar" translatable="false">ZOOM -</string>
+    <string name="buttonOcultar">OCULTAR</string>
+    <string name="buttonReset" translatable="false">RESET</string>
+    <string name="textViewNumero" translatable="false">0</string>
+</resources>

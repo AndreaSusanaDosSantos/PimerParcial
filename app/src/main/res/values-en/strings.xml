@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrimerParcial</string>
+    <string name="Bienvenido">Welcom Back</string>
+    <string name="editTextNombre">ENTER YOUR NAME</string>
+    <string name="editTextClave">ENTER YOUR PASSWORD</string>
+    <string name="textViewRecordarUser">Remember User</string>
+    <string name="buttonIngresar">ENTEROKAY</string>
+    <string name="textViewRegistro">Unregistered? Create User</string>
+    <string name="textViewConversor">Currency Converter</string>
+    <string name="editTextIngreseMonto">Enter Amount in Pesos</string>
+    <string name="textViewSeleccioneMoneda">Select Currency</string>
+    <string name="radioButtonDolar">DOLLAR</string>
+    <string name="radioButtonEuro">EURO</string>
+    <string name="radioButtonReal">REAL (BRAZIL)</string>
+    <string name="editTextResultado">Autcome</string>
+    <string name="buttonConvertir">TURN INTO</string>
+    <string name="buttonReiniciar">RESTRAT</string>
+    <string name="buttonSumar">ADD</string>
+    <string name="buttonRestar">SUBTRACT</string>
+    <string name="buttonOcultar">HIDE</string>
+</resources>
