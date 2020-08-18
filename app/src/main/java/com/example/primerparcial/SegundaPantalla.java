@@ -53,21 +53,40 @@ public class SegundaPantalla extends AppCompatActivity {
 
     private void Reiniciar() {
 
+        Dolar.isChecked( );
+        Resultado.equals("");
+        /*if (Dolar.isChecked()!= true && Resultado!=null){
+            if (Euro.isChecked()&& Resultado!=null ) {
 
-    }
+                    Dolar.isChecked( );
+                    Resultado.equals("");
+            }
+                if (Real.isChecked()&& Resultado!=null) {
+                        Dolar.isChecked( );
+                        Resultado.equals("");
+                }
+            }
+            else{
+                Dolar.isChecked();
+                Resultado.equals("");
+            }*/
+
+        }
+
+
 
     @SuppressLint("SetTextI18n")
     private void Convertir() {
         float V_Monto= new Float(Monto.getText().toString());
 
         if (Dolar.isChecked() == true) {
-            Resultado.setText("El valor es " + (72 * V_Monto));
+            Resultado.setText("El valor es " + ((1 * V_Monto)/72));
         }
         if (Euro.isChecked()) {
-            Resultado.setText("El valor es " + (113 * V_Monto));
+            Resultado.setText("El valor es " + ((1 * V_Monto)/113));
         }
         if (Real.isChecked()) {
-            Resultado.setText("El valor es " + (372 * V_Monto));
+            Resultado.setText("El valor es " + ((1 * V_Monto)/372));
 
         }
     }
