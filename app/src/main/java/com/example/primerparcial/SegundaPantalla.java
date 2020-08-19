@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,6 +19,7 @@ public class SegundaPantalla extends AppCompatActivity {
     private Button Reiniciar;
     private EditText Monto;
     private EditText Resultado;
+    private RadioGroup Monedas;
     private RadioButton Dolar, Euro, Real;
 
     @Override
@@ -31,6 +33,7 @@ public class SegundaPantalla extends AppCompatActivity {
         Dolar = findViewById(R.id.radioButtonDolar);
         Euro = findViewById(R.id.radioButtonEuro);
         Real = findViewById(R.id.radioButtonReal);
+        Monedas = findViewById(R.id.TipoDeMonedas);
         Reiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,33 +55,13 @@ public class SegundaPantalla extends AppCompatActivity {
     }
 
     private void Reiniciar() {
-
-        Dolar.isChecked( );
-        Resultado.equals("");
-        /*if (Dolar.isChecked()!= true && Resultado!=null){
-            if (Euro.isChecked()&& Resultado!=null ) {
-
-                    Dolar.isChecked( );
-                    Resultado.equals("");
-            }
-                if (Real.isChecked()&& Resultado!=null) {
-                        Dolar.isChecked( );
-                        Resultado.equals("");
-                }
-            }
-            else{
-                Dolar.isChecked();
-                Resultado.equals("");
-            }*/
-
+        Monedas.clearCheck();
+        Monto.setText("");
+        Resultado.setText("");
         }
-
-
-
     @SuppressLint("SetTextI18n")
     private void Convertir() {
         float V_Monto= new Float(Monto.getText().toString());
-
         if (Dolar.isChecked() == true) {
             Resultado.setText("El valor es " + ((1 * V_Monto)/72));
         }
@@ -87,7 +70,6 @@ public class SegundaPantalla extends AppCompatActivity {
         }
         if (Real.isChecked()) {
             Resultado.setText("El valor es " + ((1 * V_Monto)/372));
-
         }
     }
 }

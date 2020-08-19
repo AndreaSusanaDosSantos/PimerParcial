@@ -22,16 +22,19 @@ public class TerceraPantalla extends AppCompatActivity {
         Sumar= findViewById(R.id.buttonSumar);
         Restar= findViewById(R.id.buttonRestar);
         Reset= findViewById(R.id.buttonReset);
+        Restar.setOnClickListener(new View.OnClickListener( ) {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
         Sumar.setOnClickListener(new View.OnClickListener( ) {
             @Override
             public void onClick(View v) {
-                String numero;
-                numero= Numero.getText().toString();
-                if (numero.equals(0)){
 
                 }
 
-            }
+
         });
 
     }
